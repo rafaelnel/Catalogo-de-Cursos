@@ -63,46 +63,41 @@ class _MyHomePageState extends State<MyHomePage> {
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/informatica.png',
                           scale: 50,
                         ),
                         Text("Informática Fundamental"),
+                        Text("Carga Horária: 60H"),
                       ],
                     ),
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/python.png',
                           scale: 50,
                         ),
                         Text("Fundamentos de Python I"),
+                        Text("Carga Horária: 30H"),
                       ],
                     ),
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/web.png',
                           scale: 50,
                         ),
                         Text("Desenvolvedor WEB Front-End"),
+                        Text("Carga Horária: 108H"),
                       ],
                     ),
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/assis adm.png',
                           scale: 50,
                         ),
                         Text("Assistente Administrativo"),
-                      ],
-                    ),
-                    Column(
-                      children: [
-                        Image.asset(
-                          'images/senac.png',
-                          scale: 50,
-                        ),
-                        Text("Operador de Computador"),
+                        Text("Carga Horária: 160H"),
                       ],
                     ),
                   ],
@@ -115,46 +110,68 @@ class _MyHomePageState extends State<MyHomePage> {
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/banco-de-dados.png',
                           scale: 50,
                         ),
                         Text("Administrador de Banco de Dados"),
+                        Text("Carga Horária: 200H"),
                       ],
                     ),
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/sistemas.png',
                           scale: 50,
                         ),
                         Text("Programador de Sistemas"),
+                        Text("Carga Horária: 200H"),
                       ],
                     ),
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/eletetroele.png',
                           scale: 50,
                         ),
-                        Text("Instalador de Sistemas"),
+                        Text("Instalador de Sistemas Eletroeletrônicos e CFTV"),
+                        Text("Carga Horária: 200H"),
                       ],
                     ),
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/tecnico-em-adm.png',
                           scale: 50,
                         ),
                         Text("Técnico em Administração"),
+                        Text("Carga Horária: 1000H"),
+                      ],
+                    ),
+                  ],
+                ),
+                Wrap(
+                  //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  spacing: 20.0,
+                  runSpacing: 10.0,
+                  children: [
+                    Column(
+                      children: [
+                        Image.asset(
+                          'images/tecnico-em-infor.png',
+                          scale: 50,
+                        ),
+                        Text("Técnico em Informática"),
+                        Text("Carga Horária: 1200H"),
                       ],
                     ),
                     Column(
                       children: [
                         Image.asset(
-                          'images/senac.png',
+                          'images/opcomp.png',
                           scale: 50,
                         ),
-                        Text("Técnico em Informática"),
+                        Text("Operador de Computador"),
+                        Text("Carga Horária: 196H"),
                       ],
                     ),
                   ],
