@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               Image.asset(
                 'images/senac.png',
-                scale: 50,
+                scale: 40,
               ),
               Text("Senac Cora Coralina"),
             ],
@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/informatica.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Informática Fundamental"),
                         Text("Carga Horária: 60H"),
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/python.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Fundamentos de Python I"),
                         Text("Carga Horária: 30H"),
@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/web.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Desenvolvedor WEB Front-End"),
                         Text("Carga Horária: 108H"),
@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/assis adm.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Assistente Administrativo"),
                         Text("Carga Horária: 160H"),
@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/banco-de-dados.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Administrador de Banco de Dados"),
                         Text("Carga Horária: 200H"),
@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/sistemas.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Programador de Sistemas"),
                         Text("Carga Horária: 200H"),
@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/eletetroele.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Instalador de Sistemas Eletroeletrônicos e CFTV"),
                         Text("Carga Horária: 200H"),
@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/tecnico-em-adm.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Técnico em Administração"),
                         Text("Carga Horária: 1000H"),
@@ -158,7 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/tecnico-em-infor.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Técnico em Informática"),
                         Text("Carga Horária: 1200H"),
@@ -168,7 +168,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Image.asset(
                           'images/opcomp.png',
-                          scale: 50,
+                          scale: 3,
                         ),
                         Text("Operador de Computador"),
                         Text("Carga Horária: 196H"),
